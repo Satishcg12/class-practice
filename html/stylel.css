@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;    
+    height: 100vh;
+}
+
+.form{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1rem gray;
+    overflow: hidden;
+    background-color: white;
+}
+.form img{
+    height: 100%;
+
+}
+
+.form .register{
+    display: flex;
+    flex-direction: column;
+    padding:0rem 3rem
+
+}
+
+.form .items{
+    position: relative;
+}
+.form .items {
+    
+}
+
+.form .items input{
+    padding: 5px 10px;
+}
+.form .items input:focus>label{
+    color: red;
+}
+.form .items label{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
