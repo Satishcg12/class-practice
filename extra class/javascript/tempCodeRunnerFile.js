@@ -1,1 +1,3 @@
-satish
+nction(a){
+    console.log(a)
+});
