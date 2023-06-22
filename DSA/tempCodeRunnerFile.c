@@ -1,1 +1,1 @@
-data->next
+toh(1,s,a,d);

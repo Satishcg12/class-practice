@@ -1,0 +1,9 @@
+<bookstore>
+    <book category="ram">
+        <title lang="eng">Everyday Italian </title>
+        <author>Giada de laurentiis </author>
+        <year>2005</year>
+        <price>30.00</price>
+
+    </book>
+</bookstore>

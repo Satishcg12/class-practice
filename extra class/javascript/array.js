@@ -11,7 +11,7 @@ let names = ["Alice", "Bob", "Charlie", "David", "Emily", "Frank", "Grace", "Hen
 names.forEach((e)=>{
     console.log(e)
 })
-let stack=()=> {return [1,2,3]}
+let stack=()=> {    }
 
 
 const satish = ()=> console.log("arrow function")
