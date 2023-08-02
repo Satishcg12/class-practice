@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" ?>
+<inventory>
+    <drink>
+        <lemonade>
+            <price>10</price>
+            <amount>11</amount>
+        </lemonade>
+        <pop>
+            <price>20</price>
+            <amount>10</amount>
+        </pop>
+    </drink>
+    <snack>
+        <chips>966
+            <price>100</price>
+            <amount>60</amount>
+        </chips>
+     </snack>
+</inventory>

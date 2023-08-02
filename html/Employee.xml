@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+
+<company>
+  <employee>
+    <!-- employee details -->
+    <fullname>Rayyan</fullname>
+    <designation>cleaner</designation>
+    <address>under bridge</address>
+
+  </employee>
+  <employee>
+    <!-- another employee's detail here...-->
+    <fullname>John Doe</fullname>
+    <designation>manager</designation>
+    <address>over the river bank</address>
+
+  </employee>
+  <employee>
+    <!-- another employee's detail here...-->
+    <fullname>John Doe</fullname>
+    <designation>manager</designation>
+    <address>over the river bank</address>
+
+  </employee>
+
+
+</company>

@@ -2,7 +2,7 @@ var a =1
 let b=2
 const c =3
 
-console.table({a,b,c})
+console.log({a,b,c})
 
 let arr = ["satish", {
     "name":"satish",
@@ -14,4 +14,4 @@ let arr = ["satish", {
     "Values":"ram",
 },
 ]
-console.table(arr)
+console.log(arr)

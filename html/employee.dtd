@@ -1,0 +1,14 @@
+<!ELEMENT Employee (Name, Contact, Address)>
+<!ELEMENT Name (FirstName, LastName)>
+<!ELEMENT Contact (Mobile, Landline)>
+<!ELEMENT Address (city, street, tole)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT Mobile (#PCDATA)>
+<!ELEMENT Landline (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT tole (#PCDATA)>
+
+
+<!ATTLIST Address type CDATA #IMPLIED>

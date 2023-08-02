@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add child</title>
+
+</head>
+<body>
+    <pre>
+
+        <style style="display: block;" contentEditable="true">
+        #container{
+            margin: 2rem;
+            padding: .5rem;
+            background: lightblue;
+            border-radius: 1rem;
+        }
+        .child{
+            height: 18px;
+            margin-bottom: 1rem;
+        }
+        </style>
+    </pre>
+    <button id="addChild">add task</button>
+    <div id="container">
+        <h1>to do list 
+        </h1>
+    </div>
+</body>
+<pre>
+<script style="display: block;" contentEditable="true">
+    const addChildButton = document.getElementById("addChild");
+    let container = document.getElementById('container')
+    
+    addChildButton.addEventListener('click',()=>{
+        const text = prompt("enter your task")
+        // container.innerHTML += `<div class="child">${text}</div>`
+        const newElement =document.createElement('div')
+        newElement.classList='child'
+        newElement.style.background=  `rgb(${Math.random()*250}, ${Math.random()*250}, ${Math.random()*250})`
+        newElement.innerText=text
+        container.appendChild(newElement)
+    })
+</script>
+</pre>
+</html>

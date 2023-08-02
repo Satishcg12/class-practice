@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Bookstore>
+  <book>
+    <titlle>I was never broken</titlle>
+    <page>159</page>
+    <auther>Moon soul child</auther>
+    <price>700</price>
+  </book>
+  <book>
+    <titlle>Story of a lost child</titlle>
+    <page>500</page>
+    <auther>unknown</auther>
+    <price>1000</price>
+  </book>
+  <book>
+    <titlle>Who am i?</titlle>
+    <page>123</page>
+    <auther>Don't know</auther>
+    <price>900</price>
+  </book>
+</Bookstore>

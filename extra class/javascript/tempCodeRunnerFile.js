@@ -1,3 +1,3 @@
-nction(a){
-    console.log(a)
-});
+rs.forEach(i => {
+//     numbersSquar.push(i**2)
+// });
